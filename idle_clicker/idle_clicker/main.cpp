@@ -50,9 +50,9 @@ void handleKey(char c)
 
 	if (c == '2')
 	{
-		if (bytes >= 32)
+		if (bytes >= 18)
 		{
-			bytes -= 32;
+			bytes -= 18;
 			cpus++;
 			draw();
 		}
